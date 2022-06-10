@@ -30,4 +30,4 @@ update:
 	$(CARGO) update
 
 run:
-	$(CARGO) run
+	$(CARGO) run -- stdio
