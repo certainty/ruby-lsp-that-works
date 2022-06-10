@@ -28,3 +28,6 @@ test: build
 
 update:
 	$(CARGO) update
+
+run:
+	$(CARGO) run
