@@ -21,10 +21,13 @@ doc:
 	$(CARGO) doc
 
 install: build
-	$(CARGO) install
+	$(CARGO) install --path . 
 
 test: build
 	$(CARGO) test -- --nocapture
 
 update:
 	$(CARGO) update
+
+run:
+	$(CARGO) run -- stdio
